@@ -1,0 +1,111 @@
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+body {
+    background-color: #f7fafa;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    height: 85vh;
+    width: 100vw;
+}
+
+.leftNavbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid black;
+    margin-top: 18px;
+    align-items: center;
+    font-family: cursive;
+}
+
+.myName {
+    padding: 20px 0px;
+    font-size: 44px;
+    border-bottom: 1px solid black;
+}
+
+.lastNameSpan {
+    text-indent: 0px;
+}
+
+.portfolioLink {
+    margin-top: 60px;
+    padding: 30px 0px;
+    font-size: 26px;
+}
+
+.aboutMeLink {
+    padding: 30px 0px;
+    font-size: 26px;
+}
+
+.contactMeLink {
+    padding: 30px 0px;
+    font-size: 26px;
+}
+
+.generalBody {
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    border-top: 1px solid black;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.firstThreeProjects {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30%;
+}
+
+.lastThreeProjects {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30%;
+}
+
+.projectOne {
+    padding-right: 150px;
+}
+
+.projectTwo {
+    padding-right: 150px;
+}
+
+.projectThree {
+    padding-right: 150px;
+}
+
+.projectFour {
+    padding-right: 150px;
+}
+
+.projectFive {
+    padding-right: 150px;
+}
+
+.projectSix {
+    padding-right: 150px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: justify;
+    margin-top: 90px;
+}
