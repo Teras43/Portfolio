@@ -1,111 +1,80 @@
+/* General CSS */
+
 a {
     text-decoration: none;
     color: #333333;
-}
+} 
 
+/* Background pattern from Toptal Subtle Patterns */
 body {
-    background-color: #f7fafa;
+    background-image: url(./img/triangle-mosaic.png);
 }
 
-.pageContainer {
+.topNavbar {
     display: flex;
-    flex-direction: row;
-    margin: 0px;
-    height: 85vh;
-    width: 100vw;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    background-color: rgba(239, 233, 244, 0.2)
+    ;
 }
 
-.leftNavbar {
+.navButtons {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    border-right: 1px solid black;
-    margin-top: 18px;
-    align-items: center;
-    font-family: cursive;
+    width: 600px;
+    justify-content: space-between;
+    font-size: 25px;
 }
 
-.myName {
-    padding: 20px 0px;
-    font-size: 44px;
-    border-bottom: 1px solid black;
+/* .linkHighlight {
+    text-align: center;
+    width: 80px;
+} */
+
+/* .homeButton a {
+    color: #040f16;
+    border: 1px solid #040f16;
+    padding: 10px 13px;
+} */
+
+/* .homeButton a:active {
+    border-bottom: 8px solid #5762d5;
+    color: #edf7f6;
+    padding-bottom: 12px;
+} */
+
+.portfolioButton > a {
+    color: #040f16;
 }
 
-.lastNameSpan {
-    text-indent: 0px;
+.aboutMeButton > a {
+    color: #040f16;
 }
 
-.portfolioLink {
-    margin-top: 60px;
-    padding: 30px 0px;
-    font-size: 26px;
+.contactMeButton > a {
+    color: #040f16;
 }
 
-.aboutMeLink {
-    padding: 30px 0px;
-    font-size: 26px;
-}
-
-.contactMeLink {
-    padding: 30px 0px;
-    font-size: 26px;
+.generalDescriptionMe {
+    display: flex;
+    padding: 50px 500px;
+    justify-content: center;
+    border: 1px solid lightgray;
+    font-size: 23px;
+    color: #040f16;
+    /* background-color: #76818e; */
 }
 
 .generalBody {
     display: flex;
-    flex: 6;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 18px;
-    border-top: 1px solid black;
-}
-
-.projectLinks {
-    display: flex;
-    flex-direction: column;
-    font-size: 40px;
-}
-
-.firstThreeProjects {
-    display: flex;
-    flex-direction: row;
-    padding-top: 30%;
-}
-
-.lastThreeProjects {
-    display: flex;
-    flex-direction: row;
-    padding-top: 30%;
-}
-
-.projectOne {
-    padding-right: 150px;
-}
-
-.projectTwo {
-    padding-right: 150px;
-}
-
-.projectThree {
-    padding-right: 150px;
-}
-
-.projectFour {
-    padding-right: 150px;
-}
-
-.projectFive {
-    padding-right: 150px;
-}
-
-.projectSix {
-    padding-right: 150px;
-}
-
-.footerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: justify;
-    margin-top: 90px;
+    justify-content: space-between;
+    border: 1px solid #f3f9e3;
+    padding: 300px 30px;
 }
